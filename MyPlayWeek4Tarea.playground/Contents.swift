@@ -1,4 +1,5 @@
 //: Playground - Auto y velocidades con Class and Enum
+//
 // by Mario E. SV
 import UIKit
 
@@ -35,6 +36,7 @@ class Auto {
 }
 
 let auto = Auto()
+
 for i in 0..<20 {
     let (velocimetro, velocidad) = auto.cambioDeVelocidad()
     print("\(velocimetro), \(velocidad) " )
